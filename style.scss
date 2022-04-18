@@ -1,0 +1,51 @@
+* {
+  font-family: 'Nunito', sans-serif;
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  position: absolute;
+  top: 10vw;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+  input, div {
+    margin:.25rem;
+    border-radius: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 3rem;
+    height: 3rem;
+    border: 1px solid green;
+    background-color: white;
+  }
+
+  // #bg {
+  //   background-image: linear-gradient(white, white);
+  // }
+
+  input {
+    text-align: center;
+  }
+
+  input:focus {
+    background-color: #f3f3f3;
+  }
+}
+
