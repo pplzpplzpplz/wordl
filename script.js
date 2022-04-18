@@ -13,16 +13,16 @@ let usersFullAnswer = [];
 random5LtrWrdIndex = Math.floor(Math.random() * all5LetterWords.length);
 
 var randomWord = all5LetterWords[random5LtrWrdIndex];
-console.log('word: ' + randomWord);
+console.log('the answer: ' + randomWord);
 
 let randomWordArr = randomWord.split("");
-console.log(randomWordArr);
+// console.log(randomWordArr);
 
 
 const inputs = document.querySelectorAll('input');
 var inputsArr = Array.prototype.slice.call(inputs);
 var firstFiveInputsArr = inputsArr.slice(0, 5);
-console.log(firstFiveInputsArr);
+// console.log(firstFiveInputsArr);
 inputs.forEach(e => e.addEventListener('input', inputHandler));
 var keyIndex;
 
