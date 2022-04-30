@@ -38,8 +38,6 @@ function inputHandler(e) {
       console.log('entry: ' + userEntry)
       console.log(inputs)
 
-      
-      
       // check if letter is same in both positions
       if (userEntry == randomWord[keyIndex - 1]) {
         letterIsTheSameInBoth = true;
@@ -70,7 +68,6 @@ function inputHandler(e) {
           if (!all5LetterWords.includes(usersFullAnswer.join(''))) {
             alert('not in word list!!!')
             // start over?
-            
           }
         }
       });
